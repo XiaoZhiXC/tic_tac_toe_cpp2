@@ -11,16 +11,29 @@
 ## C++函数讲解
 
 1，游戏胜利判断函数
+
 ![Snipaste_2024-04-11_22-38-34](https://github.com/XiaoZhiXC/tic_tac_toe_cpp2/assets/45706293/96fe5038-119c-428b-9f47-57d7f1af8552)
+
 2，棋局估值函数，用于最大最小搜索函数递归的最后深度的棋局估值
+
 ![Snipaste_2024-04-11_22-38-47](https://github.com/XiaoZhiXC/tic_tac_toe_cpp2/assets/45706293/561e964f-066d-45bb-adfa-82c49ccbea18)
+
 3，获取可移动格子，并保存在FMove结构体数组中
+
 ![Snipaste_2024-04-11_22-38-59](https://github.com/XiaoZhiXC/tic_tac_toe_cpp2/assets/45706293/3f5870a5-4c7b-41c5-b501-b9165ce1e5ce)
+
 4，最大最小搜索函数，输入为搜索深度Depth，用于调控AI难度
+
 ![Snipaste_2024-04-11_22-39-09](https://github.com/XiaoZhiXC/tic_tac_toe_cpp2/assets/45706293/d5b1d78d-3871-4710-a7e9-2fb435004b39)
+
 5，获取AI移动棋子，输入为保存棋盘状态的三维向量数组（因为UE蓝图不支持多维数组，所以用三个三维向量表示），输出为FMove，一个有两个整型参数的结构体，为电脑AI下棋的坐标
+
 ![Snipaste_2024-04-11_22-39-22](https://github.com/XiaoZhiXC/tic_tac_toe_cpp2/assets/45706293/f0b89b89-ba32-47c8-b0ba-58b7ff0c6608)
+
 6，更新棋盘
+
 ![Snipaste_2024-04-11_22-39-35](https://github.com/XiaoZhiXC/tic_tac_toe_cpp2/assets/45706293/1617bcd9-d7cd-4440-8ef1-80b29f82c4e1)
+
 7，判断游戏是否结束
+
 ![Snipaste_2024-04-11_22-39-44](https://github.com/XiaoZhiXC/tic_tac_toe_cpp2/assets/45706293/0edce169-0034-4857-833a-50dc77f85afe)
