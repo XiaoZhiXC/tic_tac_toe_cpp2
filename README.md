@@ -8,6 +8,23 @@
 
 3，实现了背景图片的切换，菜单Bgm，游戏Bgm，棋子选择音效，胜利和失败的音效
 
+## AI难度
+
+![Snipaste_2024-04-12_20-36-50](https://github.com/XiaoZhiXC/tic_tac_toe_cpp2/assets/45706293/c9e36dcc-e153-49e2-a06d-2f4f1f4420d9)
+
+派蒙：随机下棋  
+获胜：随便下
+可莉：往下看一步，即搜索深度为1
+获胜：先手，右边三格从上往下依次下
+
+![Snipaste_2024-04-12_20-42-26](https://github.com/XiaoZhiXC/tic_tac_toe_cpp2/assets/45706293/fb880697-c003-4902-a589-d3bf3d6f32a9)
+芭芭拉：往下看两步
+获胜：先手，三角杀
+
+![Snipaste_2024-04-12_20-42-35](https://github.com/XiaoZhiXC/tic_tac_toe_cpp2/assets/45706293/c6085aa5-f808-4e53-b744-4f709f83ddd8)
+
+纳西妲：计算所有的情况，搜索深度为当前空余格子数
+
 ## C++函数讲解
 
 1，游戏胜利判断函数
